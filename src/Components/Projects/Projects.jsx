@@ -10,18 +10,150 @@ import {
   SiNextdotjs,
   SiBootstrap,
   SiTypescript,
+  SiPrismic,
+  SiPrisma,
+  SiMysql,
 } from "react-icons/si";
 import img1 from "../../assets/img/1.png";
 import img2 from "../../assets/img/2.png";
 import img3 from "../../assets/img/3.png";
 import img4 from "../../assets/img/4.png";
 import img5 from "../../assets/img/5.png";
+import img6 from "../../assets/img/6.png";
+import img7 from "../../assets/img/7.png";
+import img8 from "../../assets/img/8.png";
+import img9 from "../../assets/img/9.png";
 export const Projects = () => {
   return (
     <>
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={img9} alt="" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Store</h2>
+                <p>Full Stack E-Commerce + Dashboard & CMS</p>
+                <div>
+                  <FaReact />
+                  <SiNextdotjs />
+                  <SiTailwindcss />
+                  <SiPrisma />
+                  <SiMysql />
+                </div>
+                <div>
+                  <a href="https://ecommerce-store2-nfuomw5nn-harunhatib18-gmailcom.vercel.app/?vercelToolbarCode=Dlzg6h43Qkqjmlt">
+                    <span type="button" className="btns onbt onbt">
+                      Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Harhat18/ecommerce-store2"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      Code
+                    </span>
+                  </a>
+                  <a
+                    href="https://ecommerce-admin-nucbf2y2w-harunhatib18-gmailcom.vercel.app/sign-in?redirect_url=https%3A%2F%2Fecommerce-admin-nucbf2y2w-harunhatib18-gmailcom.vercel.app%2F%3FvercelToolbarCode%3DOZTJmlSfQx4nPsR"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      CMS
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={img6} alt="" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Films</h2>
+                <p>
+                  I created with Next.js 13 App Router, SSR, CSR components.
+                </p>
+                <div>
+                  <SiNextdotjs />
+                </div>
+                <div>
+                  <a
+                    href="https://filmsharhatdev.vercel.app/12"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Harhat18/FILMS_next_project"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={img7} alt="" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Nextjs-Tutorial</h2>
+                <p>
+                  I created a full stack app using Next.js 13 App Router,React,
+                  Auth.js , MongoDB, SSR, CSR components.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiNextdotjs />
+                  <SiMongodb />
+                </div>
+                <div>
+                  <a
+                    href="https://next-tutorials-xi.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Harhat18/next-tutorials"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
               <div className="project_videocontainer">
@@ -56,6 +188,46 @@ export const Projects = () => {
                   </a>
                   <a
                     href="https://github.com/Harhat18/mern_e-commerce_2"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+              <div className="project_videocontainer">
+                <div>
+                  <img src={img8} alt="" />
+                </div>
+              </div>
+              <div className="project_information">
+                <h2>Ecommerce</h2>
+                <p>
+                  I created a app using Next.js 13 App Router,SSR, CSR
+                  components.
+                </p>
+                <div>
+                  <SiNodedotjs />
+                  <SiNextdotjs />
+                </div>
+                <div>
+                  <a
+                    href="https://imaginer-rouge.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Harhat18/imaginer"
                     target="_blank"
                     rel="noreferrer"
                   >

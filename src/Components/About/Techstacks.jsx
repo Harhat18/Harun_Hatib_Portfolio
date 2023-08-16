@@ -1,7 +1,7 @@
 import React from "react";
 import "./Techstacks.css";
 import { FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
-import { SiHtml5, SiTailwindcss } from "react-icons/si";
+import { SiHtml5, SiMysql, SiTailwindcss } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import {
   SiJavascript,
@@ -35,8 +35,16 @@ export const Techstacks = () => {
             <h5>React.js</h5>
           </div>
           <div>
+            <SiNextdotjs />
+            <h5>Next.js</h5>
+          </div>
+          <div>
             <SiTypescript />
             <h5>Typescript</h5>
+          </div>
+          <div>
+            <SiRedux />
+            <h5>Redux</h5>
           </div>
           <div>
             <FaNodeJs />
@@ -46,7 +54,15 @@ export const Techstacks = () => {
             <DiMongodb />
             <h5>MongoDb</h5>
           </div>
+          <div>
+            <SiExpress />
+            <h5>Express.js</h5>
+          </div>
 
+          <div>
+            <SiMysql />
+            <h5>Mysql</h5>
+          </div>
           <div>
             <SiTailwindcss />
             <h5>Tailwind CSS</h5>
@@ -55,22 +71,7 @@ export const Techstacks = () => {
             <SiBootstrap />
             <h5>Bootstrap </h5>
           </div>
-          <div>
-            <SiMaterialui />
-            <h5>Github</h5>
-          </div>
-          <div>
-            <SiExpress />
-            <h5>Express.js</h5>
-          </div>
-          <div>
-            <SiNextdotjs />
-            <h5>Next.js</h5>
-          </div>
-          <div>
-            <SiRedux />
-            <h5>Redux</h5>
-          </div>
+
           <div>
             <FaGitAlt />
             <h5>Github</h5>

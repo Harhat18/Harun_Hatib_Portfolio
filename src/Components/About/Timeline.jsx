@@ -53,20 +53,12 @@ export const Timeline = () => {
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
-            >
-              Entrepreneurial Head of College
-            </h3>
+            ></h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
-            >
-              KIPM-COLLEGE OF ENGINEERING AND TECHNOLOGY
-            </h4>
-            <p data-aos="fade-right">
-              Joined with E-cell IIT-BOMBAY's program NEC to participate in
-              Asia's largest entrepreneurial program and came at 6th position in
-              Asia.
-            </p>
+            ></h4>
+            <p data-aos="fade-right"></p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             date={"August 2021 - Jan 2022"}
@@ -90,15 +82,11 @@ export const Timeline = () => {
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
-            >
-              Bootcamp
-            </h3>
+            ></h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
-            >
-              MY Captain(Remote)
-            </h4>
+            ></h4>
             <p data-aos="fade-right"></p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -124,21 +112,12 @@ export const Timeline = () => {
             <h3
               className="vertical-timeline-element-title"
               data-aos="fade-right"
-            >
-              Freelancer
-            </h3>
+            ></h3>
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
-            >
-              Web Developer(Remote)
-            </h4>
-            <p data-aos="fade-right">
-              Started practicing web Development from Jan 2022 and started
-              applying as a freelancer on various sites like
-              Upwork,Toptal,etc.Completed three major and four minor projects
-              within this span of time.
-            </p>
+            ></h4>
+            <p data-aos="fade-right"></p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -169,12 +148,8 @@ export const Timeline = () => {
             <h4
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
-            >
-              KIPM-COLLEGE OF ENGINEERING AND TECHNOLOGY,GORAKHPUR(KIET)
-            </h4>
-            <p data-aos="fade-right">
-              Started in Sept.2020 and currently in 3rd year.
-            </p>
+            ></h4>
+            <p data-aos="fade-right"></p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
